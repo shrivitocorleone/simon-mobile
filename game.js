@@ -48,7 +48,7 @@ function checkAnswer(currentLevel) {
     $("body").addClass("game-over");
     setTimeout(function(){
 $("body").removeClass("game-over");
-confirm("Game Over! Your score: " + currentLevel);
+confirm("Game Over!");
 window.location.reload();
 }, 20);
     startOver();
